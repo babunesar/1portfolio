@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+/* first section CSS */
+.first-bg {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.flex-container {
+    display: flex;
+    padding: 0 60px;
+}
+.flex-container h1 {
+    font-size: 50px;
+}
+.flex-container p {
+    font-size: 16px;
+    color: #777;
+}
+.half-width {
+    width: 50%;
+}
+.half-width img {
+    width: 100%;
+}
+.text-area span {
+    color: orange;
+}
+.link-btn {
+    text-decoration: none;
+    background-image: linear-gradient(orangered, tomato);
+    padding: 10px 40px;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+/* Second Section CSS */
+.second-bg {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.text-area-two {
+    margin-left: 80px;
+}
+
+/* Third Section CSS */
+.bg-three {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.full-stack {
+    margin-right: 30px;
+    border-image: linear-gradient(orange, orangered) 1;
+    border-left: 7px solid;
+}
+.baby-web {
+    margin-left: 30px;
+    border-image: linear-gradient(blue, cyan) 1;
+    border-left: 7px solid;
+}
+.shadow {
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+.shadow h2 {
+    font-size: 40px;
+}
+.exp h2 {
+    font-size: 40px;
+}
+
+/* Footer CSS */
+footer {
+    text-align: center;
+    font-size: 20px;
+}
